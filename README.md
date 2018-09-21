@@ -5,7 +5,7 @@ AWS Helper Scripts:
 
 this repo contains simple helper scripts I use from time to time when supporting AWS environments
 
-## orphan-security-groups.py
+## orphaned-security-groups.py
 
 Simple script to load all referenced security groups for:
  - EC2
