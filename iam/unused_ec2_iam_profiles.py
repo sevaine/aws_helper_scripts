@@ -13,7 +13,7 @@ def list_instance_profile_arns():
     return a list of all instance profile arns.
     """
     marker = None
-    ec2_instance_profile_re = '^arn:aws:iam::\d+:instance-profile\/.+InstanceProfile-[A-Z0-9]{10,100}'
+    ec2_instance_profile_re = '^arn:aws:iam::\d+:instance-profile\/.+-[A-Z0-9]{10,100}'
     instance_profile_arns = []
     while True:
         if marker:
